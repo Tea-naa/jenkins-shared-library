@@ -43,4 +43,6 @@ commitVersionUpdate()
 
 ## Related Project
 
-This library is used by my `jenkins-ci-cd-pipeline` project, which automates testing, application versioning, Docker image builds and publishing, and GitHub version updates.
+This library is used by my [jenkins-ci-cd-pipeline](https://github.com/Tea-naa/jenkins-ci-cd-pipeline) project, which automates Node.js application testing, versioning, Docker image publishing, and deployment to AWS EC2.
+
+The `commitVersionUpdate()` function was implemented as part of the Jenkins CI/CD workflow. Its pipeline stage is currently disabled to prevent automated GitHub commits from repeatedly triggering webhook builds.
